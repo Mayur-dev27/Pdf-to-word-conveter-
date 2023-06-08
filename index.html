@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF to Word Converter</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    .button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .hidden {
+      display: none;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PDF to Word Converter</h1>
+    <input type="file" id="pdfFile" accept=".pdf">
+    <button class="button" onclick="convertToWord()">Convert to Word</button>
+  </div>
+
+  <script src="scriot.js"></script>
+</body>
+</html>
